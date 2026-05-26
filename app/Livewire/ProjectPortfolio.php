@@ -26,7 +26,7 @@ class ProjectPortfolio extends Component
                 'solution' => 'Rediseño a relaciones polimórficas de Eloquent y sanitización avanzada con FormRequests.',
                 'impact' => 'Reducción del 60% en tiempo de procesamiento y base de datos relacional limpia.',
                 'tech' => ['Laravel 12', 'Eloquent', 'FormRequests', 'PHP Enums'],
-                'github_url' => 'https://github.com/quitzeinrodriguez/laravel12-legacy-migration-sandbox/blob/main/app/Models/Comment.php'
+                'github_url' => 'https://github.com/quitzeinrodriguez/laravel12-legacy-migration-sandbox/tree/main/app/Models'
             ],
             [
                 'title' => 'Desacoplamiento de Monolito de Facturación',
@@ -35,7 +35,8 @@ class ProjectPortfolio extends Component
                 'legacy' => 'Controladores "Dios" de 2,500 líneas con lógica de negocio, SQL y envíos de emails mezclados.',
                 'solution' => 'Estructuración basada en Service Pattern, interfaces de abstracción y eventos asíncronos en cola (Queues).',
                 'impact' => 'Código 100% testeable, controladores de menos de 30 líneas y procesos secundarios delegados al backend.',
-                'tech' => ['Laravel 12', 'Service Pattern', 'Event Driven', 'Laravel Queues']
+                'tech' => ['Laravel 12', 'Service Pattern', 'Event Driven', 'Laravel Queues'],
+                'github_url' => 'https://github.com/quitzeinrodriguez/laravel12-legacy-migration-sandbox/tree/main/app/Services/Billing'
             ],
             [
                 'title' => 'Optimización de Reportes Médicos Masivos',
@@ -44,7 +45,8 @@ class ProjectPortfolio extends Component
                 'legacy' => 'Carga masiva de 80k registros en memoria provocando caídas del servidor por falta de RAM (Memory Exhausted).',
                 'solution' => 'Procesamiento segmentado mediante Lazy Collections (Generadores PHP) y almacenamiento en caché por capas con Redis.',
                 'impact' => 'Consumo de memoria RAM plano congelado en 12MB y reportes pesados generados en sub-segundos.',
-                'tech' => ['Laravel 12', 'Redis', 'Lazy Collections', 'Query Optimization']
+                'tech' => ['Laravel 12', 'Redis', 'Lazy Collections', 'Query Optimization'],
+                'github_url' => 'https://github.com/quitzeinrodriguez/laravel12-legacy-migration-sandbox/tree/main/app/Services/Reports'
             ],
             [
                 'title' => 'Refactorización del Módulo Desempeño Físico',
@@ -54,7 +56,7 @@ class ProjectPortfolio extends Component
                 'solution' => 'Migración total a componentes reactivos Livewire bajo Bootstrap 5.3 con tipografía Plus Jakarta Sans.',
                 'impact' => 'Eliminación completa de la deuda técnica de jQuery y experiencia de usuario fluida sin frameworks SPA pesados.',
                 'tech' => ['Laravel 12', 'Livewire', 'Bootstrap 5.3', 'JetBrains Mono'],
-                'github_url' => 'https://github.com/quitzeinrodriguez/laravel12-legacy-migration-sandbox/blob/main/app/Livewire/PhysicalPerformance/MetricsTable.php'
+                'github_url' => 'https://github.com/quitzeinrodriguez/laravel12-legacy-migration-sandbox/tree/main/app/Livewire/PhysicalPerformance'
             ]
         ];
 

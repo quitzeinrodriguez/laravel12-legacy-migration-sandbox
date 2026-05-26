@@ -45,9 +45,11 @@
                             @endforeach
                         </div>
                         
-                        <a href="{{ $project['github_url'] ?? 'https://github.com/quitzeinrodriguez/laravel12-legacy-migration-sandbox' }}" target="_blank" rel="noopener noreferrer" class="btn btn-outline-dark btn-sm w-100 mt-2" style="font-family: 'Plus Jakarta Sans', sans-serif;">
-                            📄 Ver Abstracción de Código en GitHub
-                        </a>
+                        <div class="mt-3">
+                            <a href="{{ $project['github_url'] }}" target="_blank" class="btn btn-outline-dark btn-sm w-100 fw-semibold" style="font-family: 'JetBrains Mono', monospace; font-size: 0.8rem;">
+                                📂 Ver Abstracción de Código en GitHub →
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
