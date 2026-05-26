@@ -37,13 +37,17 @@
                             <p class="fw-semibold small mb-0 text-dark">{{ $project['impact'] }}</p>
                         </div>
 
-                        <div class="mt-auto pt-3 border-top d-flex flex-wrap gap-1">
+                        <div class="mt-auto pt-3 border-top d-flex flex-wrap gap-1 mb-3">
                             @foreach($project['tech'] as $tech)
                                 <span class="badge bg-light text-dark border px-2 py-1" style="font-family: 'JetBrains Mono', monospace; font-size: 0.7rem;">
                                     {{ $tech }}
                                 </span>
                             @endforeach
                         </div>
+                        
+                        <a href="{{ $project['github_url'] ?? 'https://github.com/quitzeinrodriguez/laravel12-legacy-migration-sandbox' }}" target="_blank" rel="noopener noreferrer" class="btn btn-outline-dark btn-sm w-100 mt-2" style="font-family: 'Plus Jakarta Sans', sans-serif;">
+                            📄 Ver Abstracción de Código en GitHub
+                        </a>
                     </div>
                 </div>
             </div>
